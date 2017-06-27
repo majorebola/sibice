@@ -1,7 +1,10 @@
 .card
     .card-image
         img(src='/images/planets/#{planet.image}')
-        span.card-title #{planet.name}
+        if enableDesc
+            span.card-title #{planet.name}
+        else
+            a(href='/#{index}').card-title #{planet.name}
         .float-text
             .chip #{planet.class}
     .card-content
@@ -9,5 +12,6 @@
             each desc in planet.description
                 p #{desc}
     .card-action.row
-        p.col.m6 #{planet.diameter}
-        p.col.m6 #{planet.gravity}
+        p.col.m6 Diametro: #{planet.diameter}km
+        p.col.m6 Gravità: #{planet.gravity}m/s
+            sup 2

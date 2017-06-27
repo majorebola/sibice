@@ -19,18 +19,29 @@
 	},
 	{
 		"name": "Efeso",
-		"description": ["La descrizione di Efeso"],
-		"diameter": 5000,
+		"description": ["Supercaldo e inattivo"],
+		"diameter": 4500,
 		"gravity": 4,
+		"class": "A1",
 		"moons": [],
-		"image": "1.jpg"
+		"image": "02-efeso.jpg"
 	},
 	{
 		"name": "Caronte",
-		"description": ["La descrizione di caronte"],
+		"description": ["Molto caldo, pieno di fenomeni vulcanici, fiumi di lava, con significative parti di roccia solida."],
 		"diameter": 5000,
-		"gravity": 4,
+		"gravity": 5,
+		"class": "E3",
 		"moons": [],
-		"image": "1.jpg"
+		"image": "03-caronte.jpg"
+	},
+	{
+		"name": "Lamia",
+		"description": ["Densa atmosfera. Abitabile in alcune aree-zone, ma in quota. Pioggie acide in superficie e temperature altissime"],
+		"diameter": 2500,
+		"gravity": 4,
+		"class": "C5",
+		"moons": [],
+		"image": "04-lamia.jpg"
 	}
 ]
