@@ -13,12 +13,13 @@
 		],
 		"diameter": 4000,
 		"gravity": 5,
+		"class": "E0",
 		"moons": [],
 		"image": "01-inferno.jpg"
 	},
 	{
-		"name": "Caronte",
-		"description": ["La descrizione di caronte"],
+		"name": "Efeso",
+		"description": ["La descrizione di Efeso"],
 		"diameter": 5000,
 		"gravity": 4,
 		"moons": [],

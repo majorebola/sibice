@@ -1,3 +1,10 @@
 include layout
 
+nav
+    .nav-wrapper
+        .col.s12
+            a(href='/').breadcrumb Sibice
+            a(href="#").breadcrumb #{title}
+
+.row.max-width
     include planet

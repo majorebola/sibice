@@ -3,9 +3,11 @@
         img(src='/images/planets/#{planet.image}')
         span.card-title #{planet.name}
         .float-text
-            .chip something
+            .chip #{planet.class}
     .card-content
-        p #{planet.description}
+        if enableDesc
+            each desc in planet.description
+                p #{desc}
     .card-action.row
         p.col.m6 #{planet.diameter}
         p.col.m6 #{planet.gravity}
