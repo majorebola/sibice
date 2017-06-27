@@ -1,8 +1,9 @@
 include layout
 
-h1 ciao
+.row.header.valign-wrapper
+    h4.col.s12 #{title}
 
-.row
+.row.max-width
     each planet in planets
         .col.m6
             include planet
