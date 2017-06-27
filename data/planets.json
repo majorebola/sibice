@@ -1,7 +1,24 @@
 [
 	{
+		"name": "Inferno",
+		"description": [
+			"E' il pianeta più centrale dell'intero sistema solare.",
+			"Le due stelle di Sibice sono così vicine da bloccare inferno in un letterale inferno rivoluzionario.",
+			"Intrappolato nelle 2 gravità dei due pianeti, compie una rivoluzione completa in 4 giorni astrali.",
+			"E per ogni periodo rivoluzionario, passa persino in mezzo alle due stelle.",
+			"La sua rivoluzione è così una sorta di 8. E' quindi in perfetta sincronia con le 2 stelle, ruota letteralmente con loro",
+			"Le temperature sul pianeta sono così alte che non esiste superficie solida.",
+			"E' un enorme mare di magma completamente soggetto all'effetto duplice delle due stelle, con 2 maree continue che si rincorrono.",
+			"Le maree possono superare i 400m di altezza in alcuni casi."
+		],
+		"diameter": 4000,
+		"gravity": 5,
+		"moons": [],
+		"image": "01-inferno.jpg"
+	},
+	{
 		"name": "Caronte",
-		"description": "La descrizione di caronte",
+		"description": ["La descrizione di caronte"],
 		"diameter": 5000,
 		"gravity": 4,
 		"moons": [],
@@ -9,7 +26,7 @@
 	},
 	{
 		"name": "Caronte",
-		"description": "La descrizione di caronte",
+		"description": ["La descrizione di caronte"],
 		"diameter": 5000,
 		"gravity": 4,
 		"moons": [],
