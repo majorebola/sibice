@@ -7,8 +7,11 @@ const router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
 	let data = fs.readFileSync(path.join(__dirname, '..', 'data', 'planets.json'));
-	let planets = JSON.parse(data);
-  	res.render('index', {planets: planets});
+	let params = {
+		title: "Sibice: Stars In Binary InterConnection Effect",
+		planets: JSON.parse(data)
+	};
+  	res.render('index', params);
 	// res.json(planets);
 });
 
