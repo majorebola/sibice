@@ -1,0 +1,39 @@
+include layout
+
+.row.max-width
+    nav
+        .nav-wrapper
+            a(href="#").brand-logo Classificazione dei pianeti
+    ul.collection
+        li.collection-item una lettera a rappresentare il tipo di pianeta
+        li.collection-item un esadecimale a rappresentare la vibilità del pianeta
+
+
+    h4 Tipologia di pianeta
+
+    table
+        thead
+            tr
+                th Valore
+                th Tipo
+                th Atmosfera
+                th Descrizione
+        tbody
+            each type in types
+                tr
+                    td #{type.val}
+                    td #{type.type}
+                    td #{type.atm}
+                    td #{type.desc}
+
+    h4 Vivibilità
+    table
+        thead
+            tr
+                th Valore
+                th Condizione
+        tbody
+            each life in lifeSustain
+                tr
+                    td #{life.val}
+                    td #{life.desc}

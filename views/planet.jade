@@ -1,17 +1,21 @@
-.card
-    .card-image
-        img(src='/images/planets/#{planet.image}')
+.row.max-width
+    .card
         if enableDesc
-            span.card-title #{planet.name}
+            .card-image
+                img(src='/images/planets/#{planet.image}')
+                span.card-title #{planet.name}
         else
-            a(href='/#{index}').card-title #{planet.name}
+            a(href='/planet/#{index}').card-image
+                img(src='/images/planets/#{planet.image}')
+                span.card-title #{planet.name}
         .float-text
             .chip #{planet.class}
-    .card-content
-        if enableDesc
-            each desc in planet.description
-                p #{desc}
-    .card-action.row
-        p.col.m6 Diametro: #{planet.diameter}km
-        p.col.m6 Gravità: #{planet.gravity}m/s
-            sup 2
+
+        .card-content
+            if enableDesc
+                each desc in planet.description
+                    p #{desc}
+        .card-action.row
+            p.col.m6 Diametro: #{planet.diameter}km
+            p.col.m6 Gravità: #{planet.gravity}m/s
+                sup 2

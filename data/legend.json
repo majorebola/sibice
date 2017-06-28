@@ -1,0 +1,28 @@
+{
+	"lifeSustain": [
+		{ "val": "0-2", "desc": "è impossibile per l’uomo andarci. Con qualsiasi tecnologia attuale." },
+		{ "val": "3-6", "desc": "è impossibile la vita umana senza strutture estremamente costose" },
+		{ "val": "7-9", "desc": "ci son porzioni del pianeta, non sulla terra ferma, in cui però l’uomo può vivere" },
+		{ "val": "A-C", "desc": "è un pianeta vivibile, ma ci sono parti del pianeta in cui l’uomo non può vivere senza ausili tecnologici" },
+		{ "val": "D-F", "desc": "è una pianeta vivibile, le parti del pianeta non vivibili si riducono e la qualità della vita migliora sempre di più." }
+	],
+	"type": [
+		{ "val": "A", "type": "Solido", "atm": "senza", "desc": "Vicino a una stella, quindi caldo di giorno, freddo di notte"},
+		{ "val": "B", "type": "Solido", "atm": "senza", "desc": "Lontano da una stella, quindi freddo e inattivo."},
+		{ "val": "C", "type": "Solido", "atm": "molto spessa", "desc": "Temperature molto alte, effetto serra massimizzato"},
+		{ "val": "D", "type": "Solido", "atm": "TBD", "desc": "TBD"},
+		{ "val": "E", "type": "Solido", "atm": "debole", "desc": "Grande presenza di fenomeni vulcanici"},
+		{ "val": "F", "type": "Solido", "atm": "Debole", "desc": "Temperature molto basse, metano liquido in superficie"},
+		{ "val": "G", "type": "Solido", "atm": "Debole", "desc": "Ghiacciato in superficie. Alcuni liquidi sotto"},
+		{ "val": "H", "type": "Solido", "atm": "Debole", "desc": "Completamente Roccioso."},
+		{ "val": "I", "type": "Solido", "atm": "ottimale", "desc": "TBD"},
+		{ "val": "J", "type": "Solido", "atm": "ottimale", "desc": "Tutta foresta."},
+		{ "val": "K", "type": "Solido", "atm": "ottimale", "desc": "Completamente desertico, qualche oasi"},
+		{ "val": "L", "type": "Solido", "atm": "ottimale", "desc": "Completamente ricoperto da acqua."},
+		{ "val": "M", "type": "Solido", "atm": "ottimale", "desc": "Superficie Mista, tipo la terra"},
+		{ "val": "X", "type": "Gassoso", "atm": "molto spessa", "desc": "completamente opaco a qualsiasi strumento. Pianeta ignoto."},
+		{ "val": "W", "type": "Gassoso", "atm": "letale", "desc": "con nucleo liquido ma a pressioni altissime"},
+		{ "val": "Y", "type": "Gassoso", "atm": "letale", "desc": "pianeta grande, temperature vicine a quelle di una stella. Il nucleo normalmente è liquido"},
+		{ "val": "Z", "type": "Gassoso", "atm": "ottimale", "desc": "Abitabile ad alcune altitudini"}
+	]
+}

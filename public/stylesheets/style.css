@@ -6,10 +6,13 @@
 	height: 280px;
 	font-size: 16pt;
 	text-shadow: 1px 1px 1px black;
-	color: white;
 	background: url('/images/all.jpg') no-repeat center;
 	background-size: cover;
 	text-align: center;
+}
+.header a, .header a:visited {
+	color: white;
+	text-decoration: none;
 }
 
 .float-text {

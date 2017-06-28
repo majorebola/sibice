@@ -1,6 +1,15 @@
-extends layout
+include layout
 
-block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+.row.max-width
+
+  .card
+    .card-image
+      img(src='/images/brokenplanet.jpg')
+      span.card-title #{message}
+    .float-text
+      .chip #{error.status}
+
+    .card-content
+      pre #{error.stack}
+    .card-action.row
+      a(href='/').btn Go home, you're drunk
