@@ -1,0 +1,11 @@
+include layout
+
+.container
+    nav.teal
+        .nav-wrapper
+            a(href="#").brand-logo Storia di Sibice
+
+
+    .content
+        each story in history
+            p #{story}

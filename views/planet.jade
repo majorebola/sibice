@@ -9,7 +9,7 @@
                 img(src='/images/planets/#{planet.image}')
                 span.card-title #{planet.name}
         .float-text
-            .chip #{planet.class}
+            span(data-badge-caption="").badge.new #{planet.class}
 
         .card-content
             if enableDesc

@@ -43,5 +43,35 @@
 		"class": "C5",
 		"moons": [],
 		"image": "04-lamia.jpg"
+	},
+	{
+		"name": "Nico",
+		"description": ["Inerte e caldo"],
+		"diameter": 7000,
+		"gravity": 5,
+		"class": "A4",
+		"moons": [],
+		"image": "05-nico.jpg"
+	},
+	{
+		"name": "Stisi",
+		"description": ["Fiumi di lava percorrono la superficie"],
+		"diameter": 6000,
+		"gravity": 5,
+		"class": "E6",
+		"moons": [],
+		"image": "06-stisi.jpg"
+	},
+	{
+		"name": "Nefertari",
+		"description": ["Ricchissimo di risorse ma molto caldo"],
+		"diameter": 6000,
+		"gravity": 5,
+		"class": "A5",
+		"moons": [],
+		"image": "07-nefertari.jpg"
 	}
+
+
+
 ]

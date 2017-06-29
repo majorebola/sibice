@@ -21,10 +21,17 @@ html
         link(rel='stylesheet', href='/stylesheets/style.css')
     body
         if showHeader
-            .row.header.valign-wrapper
-                h4.col.s12
-                    a(href="/") Sibice: Stars In Binary InterConnection Effect
-                a(href="/classification").float-text
-                    span(data-badge-caption="").badge.new Legend
-
+            .row.header
+                nav.transparent
+                    .nav-wrapper
+                        ul.flex.flex-row.center-center
+                            li
+                                a(href="/") Home
+                            li
+                                a(href="/classification") Legend
+                            li
+                                a(href="/history") History
+                .valign-wrapper
+                    h4.col.s12
+                        a(href="/") Sibice: Stars In Binary InterConnection Effect
         .container

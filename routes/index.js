@@ -39,4 +39,14 @@ router.get('/classification', function (req, res, next) {
 	res.render('classification', params);
 });
 
+router.get('/history', function (req, res, next) {
+	let data = fs.readFileSync(path.join(__dirname, '..', 'data', 'history.json'));
+	let json = JSON.parse(data);
+	let params = {
+		showHeader: true,
+		history: json.history
+	};
+	res.render('history', params);
+});
+
 module.exports = router;
