@@ -5,16 +5,15 @@
                 img(src='/images/planets/#{planet.image}')
                 span.card-title #{planet.name}
         else
-            a(href='/planet/#{index}').card-image
+            a(href='/planet/#{planet.id}').card-image
                 img(src='/images/planets/#{planet.image}')
                 span.card-title #{planet.name}
         .float-text
-            span(data-badge-caption="").badge.new #{planet.class}
+            span(data-badge-caption="").badge.new #{planet.planetClass}
 
         .card-content
             if enableDesc
-                each desc in planet.description
-                    p #{desc}
+                p #{planet.description}
         .card-action.row
             p.col.m6 Diametro: #{planet.diameter}km
             p.col.m6 Gravità: #{planet.gravity}m/s

@@ -1,0 +1,14 @@
+[
+	{
+		"type": "auto",
+		"kind": "rifle",
+		"code": "SK44",
+		"name": "Senior Killer",
+		"range": "100",
+		"bonus": "+3",
+		"weight": "8",
+		"loader": "30",
+		"loaderWeight": "1",
+		"maxBulletsPerRound": "5"
+	}
+]

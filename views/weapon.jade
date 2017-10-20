@@ -1,0 +1,55 @@
+include layout
+
+nav.teal
+    .container
+        .nav-wrapper
+            .col.s12
+                a(href='/').breadcrumb Sibice
+                a(href='/weapons').breadcrumb Weapons
+                a(href="#").breadcrumb #{title}
+.container
+    .row.max-width
+        .card
+            .card-image
+                img(src='/images/weapons/#{weapon.image}')
+                span.card-title #{weapon.name}
+            .float-text
+                span(data-badge-caption="").badge.new #{weapon.type}
+
+            .card-content
+                p #{weapon.description}
+                h5 Ingombri dell'arma
+                table.striped
+                    tbody
+                        tr
+                            td Lunghezza
+                            td #{weapon.length} cm
+                        tr
+                            td Peso
+                            td #{weapon.weight} kg
+                        tr
+                            td Peso del caricatore
+                            td #{weapon.loaderWeight} kg
+                h5 Dati tecnici dell'arma
+                table.striped
+                    tbody
+                        tr
+                            td Bonus
+                            td + #{weapon.bonus}
+                        tr
+                            td Danni
+                            td #{weapon.damage}
+                        tr
+                            td Gittata
+                            td #{weapon.range} m
+                        tr
+                            td Caricatore
+                            td #{weapon.loaderSize} colpi
+                        tr
+                            td Max RpR
+                            td #{weapon.maxRate}
+
+        //.card-action.row
+            //    p.col.m6 Diametro: #{weapon.weight} kg
+            //    p.col.m6 Gravità: #{weapon.loaderSize} colpi
+            //        sup 2

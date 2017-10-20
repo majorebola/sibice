@@ -32,3 +32,17 @@
 	justify-content: center;
 	align-content: center;
 }
+
+.card-image img{
+	object-fit: cover;
+	min-height: 220px;
+}
+
+.logo {
+	object-fit: cover;
+	width: 128px;
+	color: white;
+}
+.nav-wrapper {
+	padding: 0 15px;
+}

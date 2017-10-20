@@ -1,0 +1,30 @@
+include layout
+
+.container
+    nav.teal
+        .nav-wrapper
+            a(href="#").brand-logo Weapons
+
+
+    .content
+        table.bordered.highlight.responsive-table
+            thead
+                tr
+                    th nome
+                    th codice
+                    th tipo
+                    th bonus
+                    th danni
+                    th peso
+            tbody
+                each weapon in weapons
+                    tr
+                        td #{weapon.name}
+                        td #{weapon.code}
+                        td #{weapon.type}
+                        td #{weapon.bonus}
+                        td #{weapon.damage}
+                        td #{weapon.weight}
+                        td
+                            a(href='/weapon/#{weapon.id}') dettagli
+
